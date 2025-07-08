@@ -1,0 +1,10 @@
+entornovir1/
+__pyache__/
+*.py[cod]
+*.sqlite3
+.env
+.vscode/
+*.log
+*.pot
+*.pyc
+*.pdf
