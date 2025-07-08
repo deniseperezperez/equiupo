@@ -1,6 +1,6 @@
 anaconda-anon-usage @ file:///C:/b/abs_e8r_zga7xy/croot/anaconda-anon-usage_1732732454901/work
 archspec @ file:///croot/archspec_1709217642129/work
-asgiref==3.8.1
+asgiref==3.9.1
 boltons @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/boltons_1699480450092/work
 Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
 certifi @ file:///C:/b/abs_1fw_exq1si/croot/certifi_1725551736618/work/certifi
@@ -15,7 +15,7 @@ conda-package-handling @ file:///C:/b/abs_7fz3aferfv/croot/conda-package-handlin
 conda_package_streaming @ file:///C:/b/abs_bdz9vbvbh2/croot/conda-package-streaming_1731366449946/work
 cryptography @ file:///C:/b/abs_e2lzchf4i6/croot/cryptography_1732130411942/work
 distro @ file:///C:/b/abs_71xr36ua5r/croot/distro_1714488282676/work
-Django==5.1.6
+Django==5.2.4
 frozendict @ file:///C:/b/abs_2alamqss6p/croot/frozendict_1713194885124/work
 idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
 jsonpatch @ file:///C:/b/abs_4fdm88t7zi/croot/jsonpatch_1714483974578/work
@@ -35,7 +35,7 @@ setuptools==75.1.0
 sqlparse==0.5.3
 tqdm @ file:///C:/b/abs_77wju137gk/croot/tqdm_1724853945787/work
 truststore @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/truststore_1701881385424/work
-tzdata==2025.1
+tzdata==2025.2
 urllib3 @ file:///C:/b/abs_9a_f8h_bn2/croot/urllib3_1727769836930/work
 wheel==0.44.0
 win-inet-pton @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/win_inet_pton_1699472992992/work
