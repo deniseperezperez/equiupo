@@ -1,1 +1,58 @@
-Hola soy Aldo
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Itachi Sharingan Animation</title>
+  <style>
+    body {
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .eye-container {
+      width: 200px;
+      height: 200px;
+      position: relative;
+    }
+
+    .eye {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      transition: opacity 2s ease-in-out;
+    }
+
+    .sharingan {
+      background-image: url('sharingan.png'); /* 🔴 Tu imagen del sharingan normal */
+      z-index: 1;
+      opacity: 1;
+    }
+
+    .mangekyo {
+      background-image: url('mangekyo-itachi.png'); /* 🔴 Tu imagen del mangekyo */
+      z-index: 2;
+      opacity: 0;
+    }
+
+    .eye-container:hover .sharingan {
+      opacity: 0;
+    }
+
+    .eye-container:hover .mangekyo {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="eye-container">
+    <div class="eye sharingan"></div>
+    <div class="eye mangekyo"></div>
+  </div>
+</body>
+</html>
