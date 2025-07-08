@@ -2,7 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+<<<<<<< HEAD
+  <title>Itachi Sharingan</title>
+=======
   <title>Itachi Sharingan Animation</title>
+>>>>>>> 7789a326691852cf54bcd1e2ce1dc6e8bb53407e
   <style>
     body {
       background: black;
@@ -16,6 +20,19 @@
       width: 200px;
       height: 200px;
       position: relative;
+<<<<<<< HEAD
+      cursor: pointer;
+    }
+
+    .eye {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: opacity 1.5s ease;
+    }
+
+    .mangekyo {
+=======
     }
 
     .eye {
@@ -37,6 +54,7 @@
     .mangekyo {
       background-image: url('mangekyo-itachi.png'); /* 🔴 Tu imagen del mangekyo */
       z-index: 2;
+>>>>>>> 7789a326691852cf54bcd1e2ce1dc6e8bb53407e
       opacity: 0;
     }
 
@@ -51,8 +69,28 @@
 </head>
 <body>
   <div class="eye-container">
+<<<<<<< HEAD
+    <!-- Sharingan normal (SVG) -->
+    <svg class="eye sharingan" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="90" fill="red" stroke="black" stroke-width="8"/>
+      <circle cx="100" cy="100" r="20" fill="black"/>
+      <circle cx="100" cy="50" r="10" fill="black"/>
+      <circle cx="140" cy="130" r="10" fill="black"/>
+      <circle cx="60" cy="130" r="10" fill="black"/>
+    </svg>
+
+    <!-- Mangekyo Itachi (SVG estilizado) -->
+    <svg class="eye mangekyo" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="90" fill="red" stroke="black" stroke-width="8"/>
+      <circle cx="100" cy="100" r="20" fill="black"/>
+      <polygon points="100,20 110,100 100,180 90,100" fill="black"/>
+      <polygon points="180,100 100,110 20,100 100,90" fill="black"/>
+      <polygon points="140,140 100,110 60,140 100,100" fill="black"/>
+    </svg>
+=======
     <div class="eye sharingan"></div>
     <div class="eye mangekyo"></div>
+>>>>>>> 7789a326691852cf54bcd1e2ce1dc6e8bb53407e
   </div>
 </body>
 </html>
